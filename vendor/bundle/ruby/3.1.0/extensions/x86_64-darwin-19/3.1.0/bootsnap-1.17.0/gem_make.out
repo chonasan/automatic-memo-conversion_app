@@ -1,0 +1,19 @@
+current directory: /Users/chonan/workspace/automatic-memo-conversion_app/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.17.0/ext/bootsnap
+/Users/chonan/.rbenv/versions/3.1.4/bin/ruby -I /Users/chonan/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/chonan/workspace/automatic-memo-conversion_app/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231031-66293-meg0a8 sitelibdir\=./.gem.20231031-66293-meg0a8 clean
+
+current directory: /Users/chonan/workspace/automatic-memo-conversion_app/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231031-66293-meg0a8 sitelibdir\=./.gem.20231031-66293-meg0a8
+compiling bootsnap.c
+bootsnap.c:822:10: warning: unused variable 'contents' [-Wunused-variable]
+  char * contents = NULL;
+         ^
+1 warning generated.
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/chonan/workspace/automatic-memo-conversion_app/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231031-66293-meg0a8 sitelibdir\=./.gem.20231031-66293-meg0a8 install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20231031-66293-meg0a8/bootsnap

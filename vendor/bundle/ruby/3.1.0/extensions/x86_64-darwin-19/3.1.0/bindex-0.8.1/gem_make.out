@@ -1,0 +1,15 @@
+current directory: /Users/chonan/workspace/automatic-memo-conversion_app/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/chonan/.rbenv/versions/3.1.4/bin/ruby -I /Users/chonan/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/chonan/workspace/automatic-memo-conversion_app/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20231031-66293-oixz0u sitelibdir\=./.gem.20231031-66293-oixz0u clean
+
+current directory: /Users/chonan/workspace/automatic-memo-conversion_app/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20231031-66293-oixz0u sitelibdir\=./.gem.20231031-66293-oixz0u
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/chonan/workspace/automatic-memo-conversion_app/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20231031-66293-oixz0u sitelibdir\=./.gem.20231031-66293-oixz0u install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20231031-66293-oixz0u/skiptrace/internal
