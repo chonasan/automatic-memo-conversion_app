@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.4"
 
+#TesseractによるOCR機能の実装
+gem 'rtesseract'
+
 #環境変数を管理(.env)
 gem 'dotenv-rails'
 

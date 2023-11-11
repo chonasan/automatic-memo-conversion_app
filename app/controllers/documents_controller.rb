@@ -8,6 +8,12 @@ class DocumentsController < ApplicationController
 
   # GET /documents/1 or /documents/1.json
   def show
+    if @document.document_image.url.nil?
+
+    else
+      image = RTesseract.new(@document.document_image.url, lang: 'jpn') # 英語なら'eng'
+      @text = image.to_s # 画像内の文字列を取得
+    end
   end
 
   # GET /documents/new

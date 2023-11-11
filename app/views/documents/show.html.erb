@@ -10,8 +10,14 @@
 <% end %>
 
 <div>
+  <strong>TesseractによるOCR機能の翻訳結果:</strong>
+  <%= @text %>
+</div>
+
+<div>
   <%= link_to "Edit this document", edit_document_path(@document) %> |
   <%= link_to "Back to documents", documents_path %>
 
   <%= button_to "Destroy this document", @document, method: :delete %>
 </div>
+
