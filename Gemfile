@@ -3,6 +3,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.4"
 
+#環境変数を管理(.env)
+gem 'dotenv-rails'
+
+#ファイルの保存先を外部のストレージ(AWS上にアップロード)する用
+gem 'fog-aws'
+
 #登録フォームにCarrierwaveを使って、画像を追加する用
 gem 'carrierwave', '~> 2.0'
 

@@ -2,6 +2,13 @@
 
 <%= render @document %>
 
+<% if @document.document_image? %>  <!-- アップロード画像がある場合に実行する -->
+  <p>
+    <strong>画像:</strong>
+    <%= image_tag @document.document_image.url %><!-- userインスタンスの画像ファイルのURLを取得し表示 -->
+  </p>
+<% end %>
+
 <div>
   <%= link_to "Edit this document", edit_document_path(@document) %> |
   <%= link_to "Back to documents", documents_path %>
